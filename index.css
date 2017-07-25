@@ -1,0 +1,17 @@
+.main-course-cotainer{
+	width:1200px;
+	margin:0 auto;
+}
+
+.main-course-cotainer div{
+	float: left;
+}
+.main-course-cotainer:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.goods-container{
+	width:1200px;
+	margin:0 auto;
+}
