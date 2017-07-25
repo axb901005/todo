@@ -29,10 +29,7 @@ var $=jQuery.noConflict();
 				});
 			};
 		});
-		
 		return this;
-		
 	};
-	
 	window.Navigater=Navigater;
 })()

@@ -67,22 +67,22 @@ window.corouselView = window.corouselView||{};
     Corouse.prototype.createControlButton = function () {
         var preButton = $("<div class='preButton'><</div>");
         var nextButton = $("<div class='nextButton'>></div>");
-//      preButton.css({
-//          position: "absolute",
-//          left:"0",
-//          top:"50%",
-//          color:"white",
-//          "text-shadow": "2px 2px 5px #002242",
-//          "font-size":"30px"
-//      });
-//      nextButton.css({
-//          position: "absolute",
-//          right:"0",
-//          top:"50%",
-//          color:"white",
-//          "text-shadow": "2px 2px 5px #002242",
-//          "font-size":"30px"
-//      });
+        preButton.css({
+            position: "absolute",
+            left:"0",
+            top:"50%",
+            color:"white",
+            "text-shadow": "2px 2px 5px #002242",
+            "font-size":"30px"
+        });
+        nextButton.css({
+            position: "absolute",
+            right:"0",
+            top:"50%",
+            color:"white",
+            "text-shadow": "2px 2px 5px #002242",
+            "font-size":"30px"
+        });
         this.backgroundView.append(preButton);
         this.backgroundView.append(nextButton);
 
